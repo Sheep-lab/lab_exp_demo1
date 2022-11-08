@@ -12,6 +12,13 @@ public class target3d {
         this.z = z;
     }
 
+    public target3d(double[] doubles) {
+        this.x=doubles[0];
+        this.y=doubles[1];
+        this.z=doubles[2];
+    }
+
+
     public double getX() {
         return x;
     }

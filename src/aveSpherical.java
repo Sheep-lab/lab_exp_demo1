@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class aveSpherical {
-    public double[] aveSpherical(ArrayList<targetSpherical> list){
+    public static double[] aveSpherical(ArrayList<targetSpherical> list){
         if (list==null)
             return new double[0];
         if (list.size()==1){
